@@ -77,13 +77,13 @@ img {
   #lezioni .row>.left, #lezioni .row>.right{
     float: none;
     margin: auto;
-    width: 75%;
+    width: 100%;
   }
 
   #steps .row>.left, #steps .row>.central, #steps .row>.right{
     float: none;
     margin: auto;
-    width: 75%;
+    width: 100%;
   }
 
   .container.grey{
@@ -106,8 +106,16 @@ img {
 
   body , .row{
     margin: 0;
+    font-size: 40px;
+    
   } 
   .row{
     padding-bottom: 10px;
   }
+
+  img{
+    height: 300px;
+    padding: 20px;
+  }
+
 }
